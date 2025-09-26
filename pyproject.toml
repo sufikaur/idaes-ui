@@ -54,7 +54,7 @@ build-backend = "setuptools.build_meta"
         "IPython",
 
         # request for screenshot function to use playwright to open browser in background and capture image
-        "playwright==1.42.0",
+        "playwright",
     ]
 
     keywords = ["IDAES", "energy systems", "chemical engineering", "process modeling"]
